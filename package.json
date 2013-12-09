@@ -1,0 +1,34 @@
+{
+  "name": "css-scroll-by",
+  "version": "0.0.0",
+  "description": "Scroll the page by a given offset using CSS transitions",
+  "main": "index.js",
+  "dependencies": {
+    "css-transition": "~0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "example": "open http://localhost:9966 && beefy example.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mmckegg/css-scroll-by.git"
+  },
+  "keywords": [
+    "scrollTo",
+    "scrollBy",
+    "scroll",
+    "css",
+    "transition",
+    "margin",
+    "dom",
+    "browser"
+  ],
+  "author": "Matt McKegg",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "gitHead": "dff42b088c429d0f44986077f7dc18090b2a81bb",
+  "bugs": {
+    "url": "https://github.com/mmckegg/css-scroll-by/issues"
+  }
+}

@@ -17,7 +17,7 @@ var scrollBy = require('css-scroll-by')
 
 `offset` can be a number (representing Y scroll) or an array containing [x,y] offset.
 
-`duration' is the number of milliseconds the animation should take to complete.
+`duration` is the number of milliseconds the animation should take to complete.
 
 ## Example
 

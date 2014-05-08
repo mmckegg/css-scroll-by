@@ -1,6 +1,6 @@
 {
   "name": "css-scroll-by",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Scroll the page by a given offset using CSS transitions",
   "main": "index.js",
   "dependencies": {

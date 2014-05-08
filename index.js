@@ -5,6 +5,7 @@ module.exports = scrollBy
 function scrollBy(offset, time){
   var style = window.getComputedStyle(document.documentElement)
   var scroll = getScroll()
+  var width = window.innerWidth || document.documentElement.clientWidth || body.clientWidth
 
   var start = {position: 'relative'}
   var end = {}
@@ -13,7 +14,9 @@ function scrollBy(offset, time){
     offset = [0, offset]
   }
 
-  offset[0] = Math.max(-scroll[0], offset[0])
+  var maxScrollXOffset = width - scroll[0] - document.body.scrollWidth
+
+  offset[0] = Math.max(-scroll[0], Math.min(offset[0], maxScrollXOffset))
   offset[1] = Math.max(-scroll[1], offset[1])
 
   if (offset[0]){

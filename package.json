@@ -6,6 +6,9 @@
   "dependencies": {
     "css-transition": "~0.0"
   },
+  "devDependencies": {
+    "beefy": "~1.0.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "example": "open http://localhost:9966 && beefy example.js"
